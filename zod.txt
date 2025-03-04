@@ -1,0 +1,17 @@
+Primitives:
+.string(), .number(), .bigint(), .boolean(), .date(), .symbol()
+
+Empty Types:
+.undefined(), .null(), .void()
+
+Catch All / Allow Any Value:
+.any(), .unknown()
+
+Never Type / Allow No Values:
+.never()
+
+Coercion:- Apperently mean -> To push someone to do something.
+const schema = zod.coerce.string();
+schema.parse("SSBD") => "SSBD"
+schema.parse(12) => "12"
+schema.parse(true) => "true"
