@@ -1,0 +1,18 @@
+pwd
+cd
+ls => -l, -R, -r, -t, -s 
+mkdir
+touch
+cat => > to add data in file, => >> to append data in file
+vi => :wq! -> save and exit, => :q! -> exit
+mv 
+cp => cp -r dir1 dir2 -> -r: recursive, to copy the whole directory
+nvm => node version manager
+npm => node package manager
+node 
+
+chmod => -R u/g/o,+/-,r/w/x file/dir
+chmod => 777 means all permissions given to all, => 664 (-rw-rw-r--)
+
+head => first 10 lines or -(no. of lines) -> head -20 index.js
+tail => last 10 lines
